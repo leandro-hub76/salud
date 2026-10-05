@@ -1,6 +1,7 @@
 import ScoreRing from '@/components/ScoreRIng';
 import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Actions from '../components/Actions';
 import Header from '../components/Header';
 import TabBar from '../components/TabBar';
 import { colors } from '../constants/colors';
@@ -11,6 +12,7 @@ return (
 {/* COMPONENTS: add each one right above this line */}
 <Header />
 <ScoreRing />
+<Actions />
 </View>
 <TabBar />
 </SafeAreaView>
