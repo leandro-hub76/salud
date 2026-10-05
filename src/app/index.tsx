@@ -2,6 +2,7 @@ import ScoreRing from '@/components/ScoreRIng';
 import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Actions from '../components/Actions';
+import AssistantCard from '../components/AssistantCard';
 import Header from '../components/Header';
 import TabBar from '../components/TabBar';
 import { colors } from '../constants/colors';
@@ -13,6 +14,7 @@ return (
 <Header />
 <ScoreRing />
 <Actions />
+<AssistantCard />
 </View>
 <TabBar />
 </SafeAreaView>
