@@ -9,7 +9,7 @@ export default function AssistantCard() {
         Taigo, tu puntaje bajó <Text style={styles.highlight}>28%</Text> la semana pasada
       </Text>
       <Pressable style={styles.button}>
-  <Text style={styles.buttonText}>Conversemos</Text>
+  <Text style={styles.buttonText}>Hablemos</Text>
 </Pressable>
     </View>
   );
