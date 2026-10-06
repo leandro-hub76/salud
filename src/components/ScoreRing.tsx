@@ -56,7 +56,7 @@ export default function ScoreRing() {
         <MaterialCommunityIcons name="bone" size={20} color={colors.text} />
       </View>
       <View style={styles.center}>
-        <Text style={styles.score}>8.8</Text>
+        <Text style={styles.score}>9.1</Text>
         <View style={styles.labelRow}>
           <Text style={styles.label}>tu puntaje de salud</Text>
           <Ionicons
